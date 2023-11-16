@@ -8,7 +8,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 logging.basicConfig(level=logging.INFO)
 
 # Инициализация бота и диспетчера
-bot = Bot(token="6712372829:AAHzgNZVeT3Idg1iswSn5EZexyuLxjm_Tcw")
+bot = Bot(token="YOUR_BOT_TOKEN")
 dp = Dispatcher(bot)
 dp.middleware.setup(LoggingMiddleware())
 
