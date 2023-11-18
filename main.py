@@ -42,6 +42,7 @@ async def show_menu(message: types.Message):
     markup.add(item1, item2)
     await message.answer("Привет! Я бот. Чем могу помочь? Кликай по кнопком в зависимости от твоих желаний) Также при команде /photo появится фото из интернета. В общем всю информацию ты можешь узнать нажав кнопку информация.", reply_markup=markup)
 
+# Отправка пользователю изображения с разным шрифтом
 @dp.message_handler(content_types=['photo'])
 async def handle_docs_photo(message: types.Message):
     await message.photo[-1].download('r1.png')
