@@ -11,7 +11,7 @@ from PIL import Image, ImageFont, ImageDraw
 logging.basicConfig(level=logging.INFO)
 
 # Инициализация бота и диспетчера
-bot = Bot(token="YOUR_BOT_TOKEN")
+bot = Bot(token="YOUR_BOT_TOKEN") # сюда токен бота
 dp = Dispatcher(bot)
 dp.middleware.setup(LoggingMiddleware())
 
