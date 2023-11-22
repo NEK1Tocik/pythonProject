@@ -4,7 +4,7 @@ import asyncio
 from PIL import Image
 
 # Устанавливаем токен вашего бота
-API_TOKEN = 'YOUR_BOT_TOKEN' # Сюда токен вашего бота
+API_TOKEN = 'YOUR_BOT_TOKEN'
 
 # Инициализируем бот и диспетчер
 bot = Bot(token=API_TOKEN)
